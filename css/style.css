@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    background-color: #72bdfa;
+    vertical-align:bottom;
+    position: relative;
+}
+.end-menu{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.end-menu .restart{
+    width: 200;
+    height: 70;
+    background-color: #72bdfa;
+    margin: 50px 50px 70px;
+    padding: 30px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+} 
+.end-menu .restart:hover{
+    background-color: #43749c;
+    transition: linear 0.08s;
+}
+.end-menu .message{
+    text-align: center;
+    color: #686BFD;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 40px 0;
+}
