@@ -2,6 +2,7 @@ var canvas = document.getElementById('game');
 var ctx = canvas.getContext("2d");
 
 canvas.width = 450
+if(window.width < 450) canvas.width == window.width
 canvas.height = window.innerHeight;
 //playerXYSize
 var velocityX = 0
