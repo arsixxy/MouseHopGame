@@ -55,7 +55,18 @@ window.addEventListener('keyup', ({ keyCode }) => {
     }
 
 })
-
+function moveLeft(){
+    keys.left.pressed = true
+}
+function stopLeftMove(){
+    keys.left.pressed = false
+}
+function moveRight(){
+    keys.right.pressed = true
+}
+function stopRightMove(){
+    keys.right.pressed = false
+}
 function platformJump(){
     platforms.forEach((e) =>{
         e.velocityY = 0

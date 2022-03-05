@@ -42,3 +42,21 @@ canvas{
     font-weight: bold;
     margin: 40px 0;
 }
+.right{
+    width: 100px;
+    height: 100px;
+    background-color: #686BFD;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.5;
+}
+.left{
+    width: 100px;
+    height: 100px;
+    background-color: #686BFD;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0.5;
+}
