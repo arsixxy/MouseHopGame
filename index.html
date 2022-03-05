@@ -15,8 +15,8 @@
         <div class="message">You lost</div>
         <div class="restart" onclick="document.location.reload()">Restart Game</div>
     </div>
-    <div class="left" id="left" onmousedown="moveLeft()" onpointerup="stopLeftMove()"></div>
-    <div class="right" id="right" onmousedown="moveRight()" onpointerup="stopRightMove()"></div>
+    <div class="left" id="left" onpointerdown="moveLeft()" onpointerup="stopLeftMove()"></div>
+    <div class="right" id="right" onpointerdown="moveRight()" onpointerup="stopRightMove()"></div>
     <script src="cat.js"></script>
     <script src="platform.js"></script>
     <script src="script.js"></script>
